@@ -7,25 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.0](https://github.com/Latias94/dear-imgui/releases/tag/dear-imgui-v0.1.0) - 2025-09-13
+## [0.1.0](https://github.com/Latias94/dear-imgui/releases/tag/dear-imgui-examples-v0.1.0) - 2025-09-13
 
 ### Added
 
 - add release-plz ci
 - support new font system
-- change TextureId to u64
-- add more method to dear imgui
 - improve wgpu, glow backend, remove imnodeflow extension, refactor bevy backend
+- add imnodeflow(WIP)
 - reimplement imguizmo
 - add implot, imguizmo extensions, support drag_float3
 - add logging, fix padding issue
 - use thiserror
-- improve wgpu backend
 - add glow backend, fix msvc issue, support ImGui new texture system, add more examples
 - clean up, disable wgpu multi viewport
 - add dear-imgui-bevy
-- implement dear-imgui-bevy (WIP)
 - improve multi viewport
+- improve build
 - clean examples
 - improve wrapper
 - remove platform callback for now
@@ -34,22 +32,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - improve docking
 - improve child window
 - support docking
-- add tests, improve Columns system
 - add msvc hack thank to `https://github.com/rodrigorc/easy-imgui-rs/`, fix examples
 - add more examples, fix ui build function
 - improve draw data
 - improve example, fix font
-- fix drawdata, add module placeholder
 - fix font, improve internal
-- support clipboard
 - improve io
 - support dragndrop, improve widgets
+- remove examples, fix build
 - init project
 
 ### Fixed
 
-- cargo clippy
-- fix endchild
+- minor fix glow shader
+- fix build and demo
 
 ### Other
 
@@ -57,23 +53,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - refactor wgpu backend
 - cargo fmt
 - cargo fmt
-
-### Added
-- Initial release of dear-imgui Rust bindings with docking support
-- Support for Dear ImGui v1.92 features
-- Backend support for winit, wgpu, and glow
-- Extension support for implot
-
-### Features
-- Core dear-imgui bindings with safe Rust API
-- Docking support (enabled by default)
-- Comprehensive backend ecosystem
-
-### Crates
-- `dear-imgui-sys`: Low-level FFI bindings
-- `dear-imgui`: High-level safe Rust API
-- `dear-imgui-winit`: Winit backend integration
-- `dear-imgui-wgpu`: WGPU renderer backend
-- `dear-imgui-glow`: OpenGL/GLOW renderer backend
-- `dear-implot-sys`: ImPlot FFI bindings
-- `dear-implot`: ImPlot Rust API
