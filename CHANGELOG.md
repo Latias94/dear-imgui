@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+# Changelog
+
+
+
+### Docs
+
+- add module-level docs to io,input,layout,style,string,utils,tokens,list_clipper,colors,columns,context,internal,stacks [imgui] (4e0ce4c…)
+
+
+### Features
+
+- in-place String editing + multiline callbacks [imgui] (9970434…)
+
+
+### Fixes
+
+- use ImGui constructor to initialize config and loader [imgui] (65fa06b…)
+
+
 
 ## [0.1.0] - 2025-09-13
 
