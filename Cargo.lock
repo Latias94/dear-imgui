@@ -690,7 +690,7 @@ checksum = "f27ae1dd37df86211c42e150270f82743308803d90a6f6e6651cd730d5e1732f"
 
 [[package]]
 name = "dear-imgui"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "approx",
  "bitflags 2.9.4",
@@ -743,7 +743,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imgui-glow"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "dear-imgui",
  "env_logger",
@@ -756,7 +756,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imgui-sys"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "bindgen",
  "cc",
@@ -793,7 +793,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imgui-wgpu"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "bytemuck",
  "dear-imgui",
@@ -882,7 +882,7 @@ dependencies = [
 
 [[package]]
 name = "dear-implot-sys"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "bindgen",
  "cc",
