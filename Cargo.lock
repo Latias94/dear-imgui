@@ -956,7 +956,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imgui-rs"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "approx",
  "bitflags 2.9.4",
@@ -974,7 +974,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imgui-sys"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "bindgen",
  "cc",
@@ -1011,7 +1011,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imgui-wgpu"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "bytemuck",
  "dear-imgui-rs",
@@ -1045,7 +1045,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imguizmo-sys"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "bindgen",
  "cc",
@@ -1072,7 +1072,7 @@ dependencies = [
 
 [[package]]
 name = "dear-imnodes-sys"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "bindgen",
  "cc",
@@ -1100,7 +1100,7 @@ dependencies = [
 
 [[package]]
 name = "dear-implot-sys"
-version = "0.3.0"
+version = "0.3.1"
 dependencies = [
  "bindgen",
  "cc",
