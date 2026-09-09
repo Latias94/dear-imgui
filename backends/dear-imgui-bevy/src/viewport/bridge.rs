@@ -321,7 +321,7 @@ impl ImguiViewportBridgeContext {
         if let Some(error) = self.inner.callback_fault.get() {
             return Err(error);
         }
-        Ok(self.inner.state.borrow_mut().commands.drain(..).collect())
+        Ok(std::mem::take(&mut self.inner.state.borrow_mut().commands))
     }
 
     pub(super) fn pending_create_instances(&self) -> HashSet<ImguiViewportInstanceId> {
