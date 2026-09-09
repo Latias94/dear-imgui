@@ -8,6 +8,10 @@ Changelog prose uses soft wrapping: do not hard-wrap paragraphs or bullet text j
 
 ## [Unreleased]
 
+### Fixed
+
+- Fixed false native table scope order violations when creating nested tables grows Dear ImGui's table pool. Table scope identity now uses the stable table ID instead of a relocatable memory address.
+
 ## [0.17.0] - 2026-08-17
 
 ### Added

@@ -22,7 +22,7 @@ pub(crate) struct WindowScope {
 #[derive(Clone, Copy, Debug, Eq, Hash, PartialEq)]
 pub(crate) struct TableScope {
     window: WindowScope,
-    table: usize,
+    table: sys::ImGuiID,
     instance: i16,
 }
 
@@ -60,7 +60,7 @@ impl ScopeSnapshot {
             window: Some(window),
             table: Some(TableScope {
                 window,
-                table: table as usize,
+                table: unsafe { (*table).ID },
                 instance: unsafe { (*table).InstanceCurrent },
             }),
             row: unsafe { (*table).CurrentRow },
